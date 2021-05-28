@@ -24,5 +24,5 @@ interface Variant {
   }
 }
 
-export const getProducts = () => axios.get<Product[]>('htp://fe-test.unitiva.it/products/products.json')
+export const getProducts = () => axios.get<Product[]>('http://fe-test.unitiva.it/products/products.json')
 
